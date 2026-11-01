@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Keuangan Toko</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #1e293b;
+        }
+
+        .saldo {
+            background: #2563eb;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .kartu {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        input, select, button {
+            padding: 12px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Keuangan Toko Saya</h1>
+
+    <div class="saldo">
+        <h3>Saldo Saat Ini</h3>
+        <h1>Rp 0</h1>
+    </div>
+
+    <div class="kartu">
+        <h2>Tambah Transaksi</h2>
+
+        <input type="date">
+
+        <select>
+            <option>Pemasukan</option>
+            <option>Pengeluaran</option>
+        </select>
+
+        <input type="text" placeholder="Keterangan transaksi">
+
+        <input type="number" placeholder="Jumlah uang">
+
+        <button>Simpan Transaksi</button>
+    </div>
+
+</div>
+
+</body>
+</html>
